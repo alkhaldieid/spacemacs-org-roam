@@ -1,0 +1,42 @@
+#+TITLE: spacemacs-org-roam
+
+#+TAGS: fun|layer
+
+
+* Table of Contents                     :TOC_5_gh:noexport:
+- [[#description][Description]]
+  - [[#features][Features:]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+- [[#notes][Notes]]
+
+* Description
+A Spacemacs layer that provides support for note-taking org-roam
+
+** Features:
+- note taking with backlinks system
+
+* Install
+To use this configuration layer:
+
+#+BEGIN_SRC bash
+git clone https://github.com/alkhaldieid/spacemacs-org-roam.git ~/.emacs.d/private/org-roam
+#+END_SRC
+
+Add =org-roam= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+| Key binding | Description            |
+|-------------+------------------------|
+| ~SPC a r l~ | Toggle org-roam mode   |
+| ~SPC a r f~ | org-roam-find-file     |
+| ~SPC a r g~ | org-roam-graph         |
+| ~SPC a r t~ | org-roam-dailies-today |
+
+* Notes
+tested only in Ubuntu
+Please note that this layer is not part of the spacemacs distribution yet and it is still under development.
+Feel free to submit a pull request or issues.
+#
